@@ -118,6 +118,36 @@ class Application(tk.Frame):
             self.crew_dead["command"] = dead()
             self.crew_dead.grid(row = row_number, column = column_number)
 
+            if self.crew_innocent["state"] == tk.DISABLED:      ##absolute bodge of selections to have the buttons return to normal state. commands do not work after being enabled again##
+                
+                self.crew_innocent["state"] = tk.NORMAL
+                
+            else:
+                
+                self.crew_innocent["state"] = tk.DISABLED
+                
+            if self.crew_suspicious["state"] == tk.DISABLED:
+                
+                self.crew_suspicious["state"] = tk.NORMAL
+                
+            else:
+                
+                self.crew_suspicious = tk.DISABLED
+
+            if self.crew_dead["state"] == tk.DISABLED:
+                
+                self.crew_dead["state"] = tk.NORMAL
+
+            else:
+                
+                self.crew_dead["state"] = tk.DISABLED
+
+            if self.crew["fg"] == "black":
+
+                self.crew["fg"] = "green"
+            else:
+                self.crew["fg"] = "black"
+
 
         
         crewmate = crewmate + 1                 ##i think this doesn't need to be here but i prefer not risking dumb errors it's bad practise i'm aware##
