@@ -118,7 +118,6 @@ class Application(tk.Frame):
         
         crewmate = crewmate + 1
 
-
         self.quit = tk.Button(self, width = 10, height = 1, fg = "red")
         self.quit["text"] = "QUIT"
         self.quit["command"] = self.master.destroy
