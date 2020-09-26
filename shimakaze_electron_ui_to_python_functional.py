@@ -3,16 +3,16 @@ import time
 
 ##crew mate names as inputs to test it's probably better to have them set instead of input##
 
-crew0=str(input())
-crew1=str(input())
-crew2=str(input())
-crew3=str(input())
-crew4=str(input())
-crew5=str(input())
-crew6=str(input())
-crew7=str(input())
-crew8=str(input())
-crew9=str(input())
+crew0=str(input("input crewmate 1 \n"))
+crew1=str(input("input crewmate 2 \n"))
+crew2=str(input("input crewmate 3 \n"))
+crew3=str(input("input crewmate 4 \n"))
+crew4=str(input("input crewmate 5 \n"))
+crew5=str(input("input crewmate 6 \n"))
+crew6=str(input("input crewmate 7 \n"))
+crew7=str(input("input crewmate 8 \n"))
+crew8=str(input("input crewmate 9 \n"))
+crew9=str(input("input crewmate 10\n"))
 
 crew_list=[crew0, crew1, crew2, crew3, crew4, crew5, crew6, crew7, crew8, crew9, crew0, crew1, crew2, crew3, crew4, crew5, crew6, crew7, crew8, crew9, crew0, crew1, crew2, crew3, crew4, crew5, crew6, crew7, crew8, crew9]
 
